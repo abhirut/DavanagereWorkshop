@@ -37,6 +37,17 @@ The link for each package (https://anaconda.org/anaconda/nltk) contains instruct
 conda install -c anaconda nltk
 ```
 
+4. Download the spacy English model -
+```
+python -m spacy download en
+```
+
+and nltk corpora -
+
+```
+python -m nltk.downloader all
+```
+
 Also install the IMDB sentiment dataset on torchtext with the following python code -
 ```
 import torch
