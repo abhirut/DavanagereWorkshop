@@ -1,6 +1,11 @@
 # DavanagereWorkshop
 Workshop on Deep Learning and its applications. Speakers - Saneem Chemmengath, Sneha Mondal, and Abhirut Gupta.
 
+## Contact Information
+- Saneem Chemmengath (saneem.cg@in.ibm.com)
+- Sneha Mondal (snmondal@in.ibm.com)
+- Abhirut Gupta (abhirutgupta@in.ibm.com)
+
 ## Pre-requisites
 1. Please download the following datasets -
   - Housing Prices https://www.kaggle.com/c/house-prices-advanced-regression-techniques/data
