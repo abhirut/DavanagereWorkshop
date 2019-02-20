@@ -42,13 +42,13 @@ conda install -c anaconda nltk
 python -m spacy download en
 ```
 
-and nltk corpora -
+and stopwords from nltk -
 
 ```
-python -m nltk.downloader all
+python -m nltk.downloader stopwords
 ```
 
-Also install the IMDB sentiment dataset on torchtext with the following python code -
+Also install the IMDB sentiment dataset, and pre-trained Glove word embeddings on torchtext with the following python code -
 ```
 import torch
 from torchtext import data
@@ -58,4 +58,6 @@ TEXT = data.Field(tokenize='spacy')
 LABEL = data.LabelField(dtype=torch.float)
 
 train_data, test_data = datasets.IMDB.splits(TEXT, LABEL)
+TEXT.build_vocab(train_data, max_size=25000, vectors="glove.6B.100d")
+LABEL.build_vocab(train_data)
 ```
