@@ -25,14 +25,12 @@ Linux - https://repo.anaconda.com/archive/Anaconda3-2018.12-Linux-x86_64.sh and 
 Anaconda installation guide is at - https://docs.anaconda.com/anaconda/install/
 
 3. After installing anaconda, you can install the following packages
-```
-nltk	https://anaconda.org/anaconda/nltk
-gensim	https://anaconda.org/anaconda/gensim
-keras	https://anaconda.org/anaconda/keras
-tensorflow	https://anaconda.org/anaconda/tensorflow
-pytorch		https://anaconda.org/pytorch/pytorch
-torchtext	https://anaconda.org/derickl/torchtext
-```
+  - nltk	https://anaconda.org/anaconda/nltk
+  - gensim	https://anaconda.org/anaconda/gensim
+  - keras	https://anaconda.org/anaconda/keras
+  - tensorflow	https://anaconda.org/anaconda/tensorflow
+  - pytorch		https://anaconda.org/pytorch/pytorch
+  - torchtext	https://anaconda.org/derickl/torchtext
 
 The link for each package (https://anaconda.org/anaconda/nltk) contains instructions on how to install it. For example -
 ```
