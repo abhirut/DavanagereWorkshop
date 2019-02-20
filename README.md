@@ -9,6 +9,7 @@ Workshop on Deep Learning and its applications. Speakers - Saneem Chemmengath, S
 ## Pre-requisites
 1. Please download the following datasets -
   - Housing Prices https://www.kaggle.com/c/house-prices-advanced-regression-techniques/data
+  
   You will need to create a Kaggle account, and accept the terms of the competition. (Follow the instructions from the `Download All` button.
   - MNIST http://yann.lecun.com/exdb/mnist/
   Download all 4 files
@@ -33,17 +34,16 @@ pytorch		https://anaconda.org/pytorch/pytorch
 torchtext	https://anaconda.org/derickl/torchtext
 ```
 
+The link for each package (https://anaconda.org/anaconda/nltk) contains instructions on how to install it. For example -
+```
+conda install -c anaconda nltk
+```
+
 Also install the IMDB sentiment dataset on torchtext with the following python code -
 ```
 import torch
 from torchtext import data
 from torchtext import datasets
-
-SEED = 1234
-
-torch.manual_seed(SEED)
-torch.cuda.manual_seed(SEED)
-torch.backends.cudnn.deterministic = True
 
 TEXT = data.Field(tokenize='spacy')
 LABEL = data.LabelField(dtype=torch.float)
