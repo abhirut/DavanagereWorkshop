@@ -64,3 +64,5 @@ LABEL.build_vocab(train_data)
 This is 84 MB and 862 MB respectively.
 
 Also download the file - https://github.com/abhirut/DavanagereWorkshop/blob/master/kc_house_data.csv
+
+5. Download the three `.ipynb` files in this repo
