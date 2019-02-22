@@ -36,7 +36,7 @@ The link for each package (https://anaconda.org/anaconda/nltk) contains instruct
 
 For example for windows machines open `Anaconda prompt` from windows search menu and type the following command and press `Y` when asked to install. 
 
-![alt text](https://docs.anaconda.com/_images/anaconda-prompt.png)
+![alt text](https://docs.anaconda.com/_images/anaconda-prompt.png| width=25)
 
 For Mac and Linux type these commands in bash. -
 ```
