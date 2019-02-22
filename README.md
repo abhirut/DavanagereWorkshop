@@ -38,7 +38,7 @@ For example for windows machines open `Anaconda prompt` from windows search menu
 
 ![alt text](https://docs.anaconda.com/_images/anaconda-prompt.png)
 
-For Mac and Linux type these commands in bash. -
+For Mac and Linux type these commands in terminal -
 ```
 conda install -c anaconda nltk
 ```
