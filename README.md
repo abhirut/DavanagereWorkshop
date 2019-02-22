@@ -32,12 +32,21 @@ Anaconda installation guide is at - https://docs.anaconda.com/anaconda/install/
   - pytorch		https://anaconda.org/pytorch/pytorch
   - torchtext	https://anaconda.org/derickl/torchtext
 
-The link for each package (https://anaconda.org/anaconda/nltk) contains instructions on how to install it. For example -
+The link for each package (https://anaconda.org/anaconda/nltk) contains instructions on how to install it. For example for windows machines open `Anaconda prompt` from windows search menu and type the following command and press `Y` when asked to install. For Mac and Linux type these commands in bash. -
 ```
 conda install -c anaconda nltk
 ```
+If there is trouble installing any of these packages, try installing using `pip`. Use following commands in the place of 'conda ...` commads:
+```
+pip install nltk
+pip install gensim
+pip install keras
+pip install tensorflow
+pip install pytorch
+pip install torchtext
+```
 
-4. Download the spacy English model -
+4. Download the spacy English model - comnands
 ```
 python -m spacy download en
 ```
