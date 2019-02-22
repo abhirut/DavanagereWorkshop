@@ -62,3 +62,5 @@ TEXT.build_vocab(train_data, max_size=25000, vectors="glove.6B.100d")
 LABEL.build_vocab(train_data)
 ```
 This is 84 MB and 862 MB respectively.
+
+Also download the file - https://github.com/abhirut/DavanagereWorkshop/blob/master/kc_house_data.csv
